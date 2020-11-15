@@ -1,1 +1,5 @@
 Flask
+pillow
+cv2
+werkzeug
+kiki_random
