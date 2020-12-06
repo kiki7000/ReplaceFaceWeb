@@ -1,4 +1,5 @@
 from flask import Flask, request, url_for
+from flask_cors import CORS
 from werkzeug.utils import secure_filename
 
 from random import choice
@@ -11,6 +12,7 @@ from cv2.data import haarcascades
 from PIL.Image import fromarray, open
 
 app = Flask(__name__, static_folder='cache')
+CORS(app)
 
 
 def gen_filename():
