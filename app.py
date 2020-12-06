@@ -9,7 +9,6 @@ from cv2 import imread, CascadeClassifier, COLOR_BGR2RGB, cvtColor
 from cv2.data import haarcascades
 
 from PIL.Image import fromarray, open
-from PIL.ImageDraw import Draw
 
 app = Flask(__name__, static_folder='cache')
 
