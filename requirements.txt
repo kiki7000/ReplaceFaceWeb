@@ -1,5 +1,5 @@
 Flask
 pillow
-cv2
+opencv-python
 werkzeug
-kiki_random
+numpy==1.19.3
